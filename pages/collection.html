@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Koleksiyonum - ZooPedia</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="collection.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+🐾 ZooPedia
+</div>
+
+<nav>
+<ul class="nav-links">
+
+<li><a href="../index.html">Ana Sayfa</a></li>
+<li><a class="active" href="#">Koleksiyonum</a></li>
+
+<li class="dropdown">
+
+<a href="#">
+Kategoriler
+</a>
+
+<ul class="dropdown-menu">
+
+<li><a href="mammals.html">Memeliler</a></li>
+<li><a href="birds.html">Kuşlar</a></li>
+<li><a href="reptiles.html">Sürüngenler</a></li>
+<li><a href="fish.html">Balıklar</a></li>
+<li><a href="amphibians.html">Amfibiler</a></li>
+<li><a href="insects.html">Böcekler</a></li>
+
+</ul>
+
+</li>
+
+</ul>
+</nav>
+
+</header>
+
+<section class="collection-page">
+
+<h1>Koleksiyonum</h1>
+
+<p>
+Favori ve son incelediğiniz hayvanları burada görüntüleyebilirsiniz.
+</p>
+
+<div class="collection-box">
+
+<h2>🕒 Son İncelenen Hayvanlar</h2>
+
+<div
+id="recentAnimals"
+class="animal-cards">
+</div>
+
+</div>
+
+<div class="collection-box">
+
+<h2>❤️ Favori Hayvanlarım</h2>
+
+<div
+id="favoriteAnimals"
+class="animal-cards">
+</div>
+
+</div>
+
+</section>
+
+
+<script src="../js/animals-data.js"></script>
+<script src="../js/favorites.js"></script>
+<script src="../js/collection.js"></script>
+
+</body>
+</html>

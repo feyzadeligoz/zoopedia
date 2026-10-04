@@ -1,0 +1,48 @@
+
+.collection-page p{
+font-size:20px;
+color:#bdbdbd;
+margin-bottom:50px;
+}
+
+.collection-box{
+background:
+rgba(10,35,20,0.75);
+
+border:1px solid rgba(138,224,95,.2);
+
+box-shadow:
+0 0 35px rgba(138,224,95,.08);
+
+border-radius:30px;
+
+padding:30px;
+
+margin-bottom:25px;
+}
+
+.collection-box h2{
+margin-bottom:25px;
+font-size:30px;
+}
+
+.no-favorites{
+font-size:20px;
+color:#a3ffa3;
+}
+.collection-page{
+padding:140px 100px;
+background:
+linear-gradient(
+180deg,
+rgba(0,0,0,0.2),
+rgba(0,0,0,0.5)
+);
+}
+
+.collection-page h1{
+color:#8AE05F;
+font-size:64px;
+margin-bottom:10px;
+}
+

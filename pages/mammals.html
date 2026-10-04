@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Memeliler | ZooPedia</title>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="mammals.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<section class="mammals-page">
+
+
+  <div class="mammals-top">
+
+<div class="mammals-left">
+
+<a href="../index.html" class="back-home">
+← Ana Sayfa
+</a>
+
+<div class="mammals-title">
+
+<h1>Memeliler</h1>
+
+<p>
+Dünyadaki memeli hayvan türlerini keşfedin.
+</p>
+
+</div>
+
+<div class="filters">
+
+<input
+type="text"
+placeholder="Hayvan ara..."
+class="search-filter"
+id="searchInput"
+>
+
+<button
+class="filter-btn"
+id="allAnimals"
+>
+Tümü
+</button>
+
+<button
+class="filter-btn"
+id="popularityBtn"
+>
+Popülerlik
+</button>
+
+<button
+class="filter-btn"
+id="sortAZ"
+>
+A'dan Z'ye
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="animals-container" id="animalsContainer">
+
+</div>
+<div class="pagination">
+
+<button id="prevPage">
+←
+</button>
+
+<div id="pageNumbers"></div>
+
+<button id="nextPage">
+→
+</button>
+
+</div>
+
+</section>
+
+<script src="../js/mammals.js"></script>
+
+
+</body>
+</html>

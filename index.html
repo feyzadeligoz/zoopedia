@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZooPedia</title>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+
+    <div class="logo">
+      🐾 ZooPedia
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a class="active" href="#">Ana Sayfa</a></li>
+        <li><a href="pages/collection.html">Koleksiyonum</a></li>
+        <li class="dropdown">
+
+<a href="#">
+Kategoriler
+</a>
+
+<ul class="dropdown-menu">
+
+<li><a href="pages/mammals.html">Memeliler</a></li>
+<li><a href="pages/birds.html">Kuşlar</a></li>
+<li><a href="pages/reptiles.html">Sürüngenler</a></li>
+<li><a href="pages/fishes.html">Balıklar</a></li>
+<li><a href="pages/amphibians.html">Amfibiler</a></li>
+<li><a href="pages/insects.html">Böcekler</a></li>
+
+</ul>
+
+</li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="hero-left">
+
+      <span class="small-title">
+        ZOOPEDIA'YA HOŞ GELDİNİZ
+      </span>
+
+      <h1>
+        HAYVANLARIN <br>
+        BÜYÜLEYİCİ <br>
+        DÜNYASINI <br>
+        KEŞFEDİN
+      </h1>
+
+      <p>
+        Hayvan türleri, yaşam alanları, davranışları ve ilginç özellikleri hakkında bilgi edinin.
+      </p>
+
+      <div class="search-bar">
+
+        <input id="searchInput" type="text" placeholder="Hayvan ara...">
+
+<button id="searchBtn">
+🔍
+</button>
+
+      </div>
+
+      <!-- STATS -->
+      <div class="stats">
+
+        <div class="stat-card">
+          <h2>232</h2>
+          <span>Hayvan Türü</span>
+        </div>
+
+        <div class="stat-card">
+          <h2>6</h2>
+          <span>Kategori</span>
+        </div>
+
+        <div class="stat-card">
+          <h2>200+</h2>
+          <span>Detay Sayfası</span>
+        </div>
+
+        <div class="stat-card">
+          <h2>1200+</h2>
+          <span>İlginç Bilgi</span>
+        </div>
+
+      </div>
+
+    </div>
+   
+  </section>
+
+  <!-- FEATURED ANIMALS -->
+  <section class="featured">
+
+    <div class="section-title">
+
+      <h2>Öne Çıkan Popüler Hayvanlar</h2>
+
+      <a href="pages/mammals.html">Tümünü Gör →</a>
+
+    </div>
+
+    
+<div class="animal-cards">
+
+<div class="animal-card">
+
+<img src="images/mammals/lion.jpg" alt="">
+
+<div class="animal-overlay"></div>
+
+<div class="animal-info">
+
+<span class="animal-tag">
+Memeliler
+</span>
+
+<h3>Aslan</h3>
+
+<p>
+Afrika savanlarının güçlü ve sosyal yırtıcısı.
+</p>
+
+<a href="pages/animal-detail.html?id=1">
+Detayları Gör →
+</a>
+
+</div>
+
+</div>
+
+<div class="animal-card">
+
+<img src="images/birds/afrika-gri-papagani.jpg" alt="">
+
+<div class="animal-overlay"></div>
+
+<div class="animal-info">
+
+<span class="animal-tag">
+Kuşlar
+</span>
+
+<h3>Afrika Gri Papağanı</h3>
+
+<p>
+Yüksek zekası ve konuşma yeteneğiyle ünlü bir papağan türü.
+</p>
+
+<a href="pages/animal-detail.html?id=146">
+Detayları Gör →
+</a>
+
+</div>
+
+</div>
+
+<div class="animal-card">
+
+<img src="images/fishes/clownfish.jpg" alt="">
+
+<div class="animal-overlay"></div>
+
+<div class="animal-info">
+
+<span class="animal-tag">
+Balıklar
+</span>
+
+<h3>Turuncu Palyaço Balığı</h3>
+
+<p>
+Deniz şakayıklarıyla kurduğu ortak yaşam ilişkisiyle tanınır.
+</p>
+
+<a href="pages/animal-detail.html?id=300">
+Detayları Gör →
+</a>
+
+</div>
+
+</div>
+
+<div class="animal-card">
+
+<img src="images/insects/monarch-butterfly.jpg" alt="">
+
+<div class="animal-overlay"></div>
+
+<div class="animal-info">
+
+<span class="animal-tag">
+Böcekler
+</span>
+
+<h3>Monarch Kelebeği</h3>
+
+<p>
+Binlerce kilometrelik göçleriyle ünlü etkileyici bir kelebektir.
+</p>
+
+<a href="pages/animal-detail.html?id=502">
+Detayları Gör →
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+  </section>
+
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+
+    <h2>Kategoriler</h2>
+
+<div class="category-grid">
+
+  <a href="pages/mammals.html" class="category-card mammals">
+    <h3>Memeliler</h3>
+  </a>
+
+  <a href="pages/birds.html" class="category-card birds">
+    <h3>Kuşlar</h3>
+  </a>
+
+  <a href="pages/reptiles.html" class="category-card reptiles">
+    <h3>Sürüngenler</h3>
+  </a>
+
+  <a href="pages/fish.html" class="category-card fish">
+    <h3>Balıklar</h3>
+  </a>
+
+  <a href="pages/amphibians.html" class="category-card amphibians">
+    <h3>Amfibiler</h3>
+  </a>
+
+  <a href="pages/insects.html" class="category-card insects">
+    <h3>Böcekler</h3>
+  </a>
+
+</div>
+
+    </div>
+
+  </section>
+
+  <script src="js/animals-data.js"></script>
+<script src="js/favorites.js"></script>
+
+
+<script src="js/mammals.js"></script>
+<script src="js/birds.js"></script>
+<script src="js/reptiles.js"></script>
+<script src="js/fish.js"></script>
+<script src="js/amphibians.js"></script>
+<script src="js/insects.js"></script>
+<script src="js/animals-data.js"></script>
+
+<script src="js/search.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hayvan Detayı</title>
+
+<link rel="stylesheet" href="animal-detail.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="animal-page">
+
+<a href="#" class="back-btn" id="backBtn">
+← Geri Dön
+</a>
+
+<section class="top-section">
+
+<div class="animal-image">
+<img id="animalImage" src="">
+</div>
+
+<div class="animal-main">
+
+<button id="favoriteBtn" class="favorite-btn">
+🤍 Favorilere Ekle
+</button>
+
+<h1 id="animalName"></h1>
+
+<h2 id="animalScientific"></h2>
+
+<p id="animalDescription"></p>
+
+<div class="top-tags">
+
+<div class="popularity-box">
+⭐ Popülerlik:
+<span id="animalPopularity"></span>/100
+</div>
+
+<div class="category-box">
+🦁 Kategori:
+<span id="animalCategory"></span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="stats-grid">
+
+<div class="stat-card">
+<h3>⚖️ Ağırlık</h3>
+<p id="animalWeight"></p>
+</div>
+
+<div class="stat-card">
+<h3>📏 Uzunluk</h3>
+<p id="animalLength"></p>
+</div>
+
+<div class="stat-card">
+<h3>⏳ Ömür</h3>
+<p id="animalLifespan"></p>
+</div>
+
+<div class="stat-card">
+<h3>🌍 Nüfus</h3>
+<p id="animalPopulation"></p>
+</div>
+
+<div class="stat-card">
+<h3>⚡ En Yüksek Hız</h3>
+<p id="animalSpeed"></p>
+</div>
+
+</section>
+
+<section class="big-section">
+<h2>🌍 Nüfus ve Coğrafi Dağılım</h2>
+<p id="animalLocation"></p>
+</section>
+
+<section class="big-section">
+<h2>🥩 Beslenme</h2>
+<p id="animalDiet"></p>
+</section>
+
+<section class="big-section">
+<h2>🐾 Alışkanlıklar ve Yaşam Tarzı</h2>
+<div class="big-content">
+<div class="text-side">
+<p id="animalBehavior"></p>
+</div>
+<div class="image-side">
+<img id="behaviorImage" src="">
+</div>
+</div>
+</section>
+
+<section class="big-section">
+<h2>✨ İlginç Bilgiler</h2>
+
+<ul id="factsList"></ul>
+
+</section>
+
+<div class="animal-navigation">
+<a id="prevAnimal" href="#">
+← Önceki Hayvan
+</a>
+<a id="nextAnimal" href="#">
+Sonraki Hayvan →
+</a>
+
+</div>
+
+</div>
+
+<script src="../js/animals-data.js"></script>
+<script src="../js/animal-detail.js"></script>
+</body>
+
+</html>
